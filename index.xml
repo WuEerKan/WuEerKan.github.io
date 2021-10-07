@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Oct 2021 22:13:22 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>吾尔坎的博客</title>
+      <link>http://example.org/posts/%E5%90%BE%E5%B0%94%E5%9D%8E%E7%9A%84%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Thu, 07 Oct 2021 22:13:22 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E5%90%BE%E5%B0%94%E5%9D%8E%E7%9A%84%E5%8D%9A%E5%AE%A2/</guid>
+      <description>一、博客搭建
+注册GitHub账号： 直接百度GitHub，进入GitHub官网，根据指引注册即可。
+（一）创建本地博客
+创建本地的文章 (1). 创建博客文件夹:
+在博客文件目录地址栏输入cmd，进入到cmd命令行，通过hugo new site &amp;lt;blog_name&amp;gt; 命令 新建博客文件夹
+(2). 创建文章(.md文件): 通过hugo new posts/&amp;lt;post_name&amp;gt; 命令新建文章（.md文件）。
+(3). 修改文章内容:
+通过修改博客文件夹\content\文章（.md文件）的内容，来修改博客内文章的内容。
+(4). 设置主题:
+解压⽂件 gohugo-theme-ananke-master 将解压得到的⽂件夹更名为 anake 复制重命名后的⽂件夹到博客本地⽂件夹的 themes ⽬录下 修改 config.toml ⽂件，添加⼀⾏ theme = “&amp;lt;theme_name&amp;gt;” ，其中 &amp;lt;theme_name&amp;gt; 填⼊主题的名字
+本地预览博客: 在博客目录打开cmd命令行 执行hugo server -D 命令，在本地浏览器打开cmd中显示的Web Server is available at 后面的网址，即可看到自己写的博客。
+（二）将博客托管到 GitHub
+生成静态文件 在博客文件目录地址栏输入cmd，进入到cmd命令行，通过hugo -D 命令生成静态文件。
+生成git仓库 在博客文件目录地址栏输入bash，进入到bash命令行，通过git init 命令⽣成 git 仓库。
+将博客导入到GitHub Desktop 打开安装好的GitHub Desktop，登录个人账号。 通过界面左上角File-Add local repository-Choose 选择博客文件夹中的public文件夹即可。 点击Fetch origin上传，同时设置仓库名GitHub 对应的仓库名⼀定要是&amp;lt;github_id&amp;gt;.</description>
+    </item>
+    
+  </channel>
+</rss>
